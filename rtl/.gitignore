@@ -29,6 +29,7 @@ bin/
 
 #User
 /*.vhd
+/*.bin
 /*.v
 *.cf
 *.json
