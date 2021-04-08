@@ -1,0 +1,5 @@
+set_pin_assignment	{ io_clk }	        	{ LOCATION = K14; }
+set_pin_assignment	{ io_resetn }	        { LOCATION = K16; }
+
+set_pin_assignment	{ io_uart_rxd }	{ LOCATION = E16; }
+set_pin_assignment	{ io_uart_txd }	{ LOCATION = F16; }

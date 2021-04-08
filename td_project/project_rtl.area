@@ -1,0 +1,36 @@
+standard
+***Report Model: subleqTopLevel***
+
+IO Statistics
+#IO                         4
+  #input                    3
+  #output                   1
+  #inout                    0
+
+Gate Statistics
+#Basic gates              345
+  #and                     55
+  #nand                     0
+  #or                      10
+  #nor                      0
+  #xor                      2
+  #xnor                     1
+  #buf                      0
+  #not                     19
+  #bufif1                   0
+  #MX21                    75
+  #FADD                     0
+  #DFF                    183
+  #LATCH                    0
+#MACRO_ADD                  9
+#MACRO_EQ                  11
+#MACRO_MUX                213
+
+Report Hierarchy Area:
++--------------------------------------------------------------+
+|Instance              |Module         |gates  |seq    |macros |
++--------------------------------------------------------------+
+|top                   |subleqTopLevel |162    |183    |21     |
+|  subleqArea_uartCtrl |UartCtrl       |94     |65     |14     |
+|    rx                |UartCtrlRx     |70     |34     |7      |
++--------------------------------------------------------------+
